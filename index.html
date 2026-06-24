@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+
+        body{
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        h1{
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            margin: 0;
+        }
+
+        nav{
+            background-color: #444;
+            padding: 15px;
+        }
+
+        nav a{
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover{
+            color: yellow;
+        }
+
+        section{
+            padding: 50px 20px;
+            min-height: 100vh;
+        }
+
+        .image-container{
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .image-container img{
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        button{
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            background-color: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #0056b3;
+        }
+
+        #home{
+            background-color: #f4f4f4;
+        }
+
+        #content{
+            background-color: #e8f5e9;
+        }
+
+        #service{
+            background-color: #fff3e0;
+        }
+
+        #about{
+            background-color: #fce4ec;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>WEB DEVELOPING</h1>
+
+    <nav id="tam">
+        <a href="#home">Home</a>
+        <a href="#content">Content</a>
+        <a href="#service">Service</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h2>Welcome to Our Interactive Website</h2>
+
+        <p>
+            Explore a modern and user-friendly platform designed to provide
+            information, services, and engaging content for everyone.
+            Our goal is to create an interactive experience that is simple,
+            responsive, and visually appealing across all devices.
+        </p>
+
+        <div class="image-container">
+            <img src="https://thumbs.dreamstime.com/b/web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" alt="Web Development">
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTs1LtwaEVwJtwYuJHt7ZEC6M-B2UV7g0NNiQ&s" alt="Coding">
+
+            <img src="https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.jpg?s=612x612&w=0&k=20&c=ysEsVw3q2axYt3oVZAuQjtHRlN3lY-U_e0ikK5yKIXQ=" alt="Team Work">
+        </div>
+
+        <br>
+        <button>Learn More</button>
+    </section>
+
+    <!-- Content Section -->
+    <section id="content">
+        <h2>Content</h2>
+        <p>
+            Our website provides tutorials, articles, and resources on
+            HTML, CSS, JavaScript, and modern web development technologies.
+        </p>
+    </section>
+
+    <!-- Service Section -->
+    <section id="service">
+        <h2>Services</h2>
+        <p>
+            We offer Web Design, Front-End Development,
+            Responsive Website Creation, and UI/UX Design services.
+        </p>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            We are passionate about creating modern, responsive,
+            and user-friendly websites that help businesses and
+            individuals establish a strong online presence.
+        </p>
+    </section>
+
+</body>
+</html>
